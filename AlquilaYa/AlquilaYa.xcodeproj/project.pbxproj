@@ -13,6 +13,8 @@
 		BA41732929F06A7C001F0C88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA41732729F06A7C001F0C88 /* Main.storyboard */; };
 		BA41732B29F06A7E001F0C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA41732A29F06A7E001F0C88 /* Assets.xcassets */; };
 		BA41732E29F06A7E001F0C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA41732C29F06A7E001F0C88 /* LaunchScreen.storyboard */; };
+		BA41733729F088A3001F0C88 /* myCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA41733529F088A3001F0C88 /* myCollectionViewCell.swift */; };
+		BA41733829F088A3001F0C88 /* myCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA41733629F088A3001F0C88 /* myCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BA41732A29F06A7E001F0C88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA41732D29F06A7E001F0C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA41732F29F06A7E001F0C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA41733529F088A3001F0C88 /* myCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionViewCell.swift; sourceTree = "<group>"; };
+		BA41733629F088A3001F0C88 /* myCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				BA41732A29F06A7E001F0C88 /* Assets.xcassets */,
 				BA41732C29F06A7E001F0C88 /* LaunchScreen.storyboard */,
 				BA41732F29F06A7E001F0C88 /* Info.plist */,
+				BA41733529F088A3001F0C88 /* myCollectionViewCell.swift */,
+				BA41733629F088A3001F0C88 /* myCollectionViewCell.xib */,
 			);
 			path = AlquilaYa;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				BA41732E29F06A7E001F0C88 /* LaunchScreen.storyboard in Resources */,
 				BA41732B29F06A7E001F0C88 /* Assets.xcassets in Resources */,
+				BA41733829F088A3001F0C88 /* myCollectionViewCell.xib in Resources */,
 				BA41732929F06A7C001F0C88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				BA41732629F06A7C001F0C88 /* ViewController.swift in Sources */,
 				BA41732229F06A7C001F0C88 /* AppDelegate.swift in Sources */,
+				BA41733729F088A3001F0C88 /* myCollectionViewCell.swift in Sources */,
 				BA41732429F06A7C001F0C88 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
