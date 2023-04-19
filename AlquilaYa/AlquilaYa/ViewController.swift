@@ -34,8 +34,9 @@ extension ViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "mycell", for: indexPath) as? myCollectionViewCell
-    
-        let imageName = imagenes [indexPath.row]
+        
+        let imageName = imagenes[indexPath.row]
+        cell?.imagen.image = UIImage(named: imageName)
         return cell!
     }
 }

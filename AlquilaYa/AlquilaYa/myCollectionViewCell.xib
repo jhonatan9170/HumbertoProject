@@ -19,21 +19,26 @@
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAe-ih-CuF">
                         <rect key="frame" x="80" y="164" width="42" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="4K7-MA-HtK"/>
+                            <constraint firstAttribute="height" constant="21" id="bmH-Fc-XYg"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A7k-YD-5wg">
-                        <rect key="frame" x="0.0" y="0.0" width="214" height="128"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A7k-YD-5wg">
+                        <rect key="frame" x="0.0" y="0.0" width="214" height="134"/>
                     </imageView>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
-                <constraint firstItem="fAe-ih-CuF" firstAttribute="top" secondItem="A7k-YD-5wg" secondAttribute="bottom" constant="15" id="6QV-tq-UpC"/>
-                <constraint firstItem="A7k-YD-5wg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="JPR-Mj-ju3"/>
-                <constraint firstAttribute="trailing" secondItem="A7k-YD-5wg" secondAttribute="trailing" id="eyV-4X-uM7"/>
-                <constraint firstItem="A7k-YD-5wg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="npb-Gq-22p"/>
+                <constraint firstItem="A7k-YD-5wg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3fz-Vm-7hi"/>
+                <constraint firstAttribute="trailing" secondItem="A7k-YD-5wg" secondAttribute="trailing" id="DIX-28-rBq"/>
+                <constraint firstAttribute="bottom" secondItem="fAe-ih-CuF" secondAttribute="bottom" id="pme-ps-agD"/>
+                <constraint firstItem="fAe-ih-CuF" firstAttribute="top" secondItem="A7k-YD-5wg" secondAttribute="bottom" constant="30" id="uIZ-jv-dhu"/>
+                <constraint firstItem="A7k-YD-5wg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="uKT-Df-9FD"/>
             </constraints>
             <size key="customSize" width="214" height="185"/>
             <connections>
