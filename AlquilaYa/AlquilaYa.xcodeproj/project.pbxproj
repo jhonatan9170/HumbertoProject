@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA29016029F759F700644CD2 /* PAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA29015F29F759F700644CD2 /* PAViewController.swift */; };
+		BA29016229F78E7900644CD2 /* CASASViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA29016129F78E7900644CD2 /* CASASViewController.swift */; };
+		BA29016429F7906800644CD2 /* PLAYAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA29016329F7906800644CD2 /* PLAYAViewController.swift */; };
 		BA41732229F06A7C001F0C88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA41732129F06A7C001F0C88 /* AppDelegate.swift */; };
 		BA41732429F06A7C001F0C88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA41732329F06A7C001F0C88 /* SceneDelegate.swift */; };
 		BA41732629F06A7C001F0C88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA41732529F06A7C001F0C88 /* ViewController.swift */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA29015F29F759F700644CD2 /* PAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAViewController.swift; sourceTree = "<group>"; };
+		BA29016129F78E7900644CD2 /* CASASViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CASASViewController.swift; sourceTree = "<group>"; };
+		BA29016329F7906800644CD2 /* PLAYAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLAYAViewController.swift; sourceTree = "<group>"; };
 		BA41731E29F06A7C001F0C88 /* AlquilaYa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlquilaYa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA41732129F06A7C001F0C88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA41732329F06A7C001F0C88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +75,9 @@
 				BA41732F29F06A7E001F0C88 /* Info.plist */,
 				BA41733529F088A3001F0C88 /* myCollectionViewCell.swift */,
 				BA41733629F088A3001F0C88 /* myCollectionViewCell.xib */,
+				BA29015F29F759F700644CD2 /* PAViewController.swift */,
+				BA29016129F78E7900644CD2 /* CASASViewController.swift */,
+				BA29016329F7906800644CD2 /* PLAYAViewController.swift */,
 			);
 			path = AlquilaYa;
 			sourceTree = "<group>";
@@ -145,7 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA29016229F78E7900644CD2 /* CASASViewController.swift in Sources */,
+				BA29016429F7906800644CD2 /* PLAYAViewController.swift in Sources */,
 				BA41732629F06A7C001F0C88 /* ViewController.swift in Sources */,
+				BA29016029F759F700644CD2 /* PAViewController.swift in Sources */,
 				BA41732229F06A7C001F0C88 /* AppDelegate.swift in Sources */,
 				BA41733729F088A3001F0C88 /* myCollectionViewCell.swift in Sources */,
 				BA41732429F06A7C001F0C88 /* SceneDelegate.swift in Sources */,
