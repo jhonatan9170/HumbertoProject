@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     let imagenes = ["Departamento","Casa","Casadeplaya"]
     let texto = ["Alquiler Departamento","Alquiler Casa","Alquiler Casa de playa"]
-    var a:Int!
+    
     @IBOutlet weak var collectionView: UICollectionView!
     
     override func viewDidLoad() {
@@ -46,12 +46,10 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
         print(indexPath.row)
         return cell!
         
-        
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
-        a = indexPath.row
-        switch  a! {
+        switch indexPath.row {
             
         case 0:
             performSegue(withIdentifier: "DEPAS", sender: self)
@@ -60,8 +58,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
         case 2:
             performSegue(withIdentifier: "CASASDEPLAYA", sender: self)
         default:
-            print("error")
-            
+            break
         }
         
   }
